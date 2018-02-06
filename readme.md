@@ -1,19 +1,20 @@
-# internal-ip [![Build Status](https://travis-ci.org/sindresorhus/internal-ip.svg?branch=master)](https://travis-ci.org/sindresorhus/internal-ip)
+# internal-ip
 
 > Get your internal IP address
 
+It forks from [Sindre Sorhus](https://github.com/sindresorhus/internal-ip), for hide popup window run with pm2 on windows.
 
 ## Install
 
 ```
-$ npm install internal-ip
+$ npm install @penggy/internal-ip
 ```
 
 
 ## Usage
 
 ```js
-const internalIp = require('internal-ip');
+const internalIp = require('@penggy/internal-ip');
 
 internalIp.v6().then(ip => {
 	console.log(ip);

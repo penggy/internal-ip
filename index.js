@@ -1,6 +1,6 @@
 'use strict';
 const os = require('os');
-const defaultGateway = require('default-gateway');
+const defaultGateway = require('@penggy/default-gateway');
 const ipaddr = require('ipaddr.js');
 
 function findIp(gateway) {
